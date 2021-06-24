@@ -52,13 +52,6 @@ def lispparser(string):
 	just cleans up the result of the makelist function so only the list is returned'''
 	return makelist(string)[0]
 
-if __name__ == '__main__':
-	#print (makelist("(first 2 another third)"))
-	#print (makelist("(first 2 (another) third)"))
-	print (makelist("(1st (lt 5 9))"))
-	print (makelist("(1st (lt (+ 2 3) 9))"))
-	print (makelist("(1st (lt (+ 1 2) (+ 4 3) 9))"))
-	#print (makelist('()'))
-	#print (makelist("(first (list 1 (+ 2 3) 9))"))
+
 
 
